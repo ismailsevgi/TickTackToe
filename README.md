@@ -1,5 +1,7 @@
 # TickTackToe game
 
+# Current version is here: https://ismailsevgi.github.io/TickTackToe/
+
 # The features may be implemented in future:
 # - An AI.
 # - PixelArt Game Over Screen
