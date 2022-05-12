@@ -60,7 +60,7 @@ function click(e) {
       if (switches[1].playerSwitch === true) {
         let xImg = document.createElement("img");
         xImg.classList[0] = "image";
-        xImg.src = "/assets/x.png";
+        xImg.src = "assets/x.png";
 
         e.target.appendChild(xImg);
         // e.target.innerHTML = "X";
@@ -69,7 +69,7 @@ function click(e) {
       } else {
         let oImg = document.createElement("img");
         oImg.classList[0] = "image";
-        oImg.src = "/assets/O.png";
+        oImg.src = "assets/O.png";
 
         e.target.appendChild(oImg);
 
@@ -102,9 +102,9 @@ function gameOverScreenFun() {
 
 function checkWin() {
   if (
-    block1.innerHTML == '<img src="/assets/x.png">' &&
-    block2.innerHTML == '<img src="/assets/x.png">' &&
-    block3.innerHTML == '<img src="/assets/x.png">'
+    block1.innerHTML == '<img src="assets/x.png">' &&
+    block2.innerHTML == '<img src="assets/x.png">' &&
+    block3.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
 
@@ -112,63 +112,63 @@ function checkWin() {
     clearInterval(myInterval);
   }
   if (
-    block4.innerHTML == '<img src="/assets/x.png">' &&
-    block5.innerHTML == '<img src="/assets/x.png">' &&
-    block6.innerHTML == '<img src="/assets/x.png">'
+    block4.innerHTML == '<img src="assets/x.png">' &&
+    block5.innerHTML == '<img src="assets/x.png">' &&
+    block6.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block7.innerHTML == '<img src="/assets/x.png">' &&
-    block8.innerHTML == '<img src="/assets/x.png">' &&
-    block9.innerHTML == '<img src="/assets/x.png">'
+    block7.innerHTML == '<img src="assets/x.png">' &&
+    block8.innerHTML == '<img src="assets/x.png">' &&
+    block9.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block1.innerHTML == '<img src="/assets/x.png">' &&
-    block5.innerHTML == '<img src="/assets/x.png">' &&
-    block9.innerHTML == '<img src="/assets/x.png">'
+    block1.innerHTML == '<img src="assets/x.png">' &&
+    block5.innerHTML == '<img src="assets/x.png">' &&
+    block9.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block3.innerHTML == '<img src="/assets/x.png">' &&
-    block5.innerHTML == '<img src="/assets/x.png">' &&
-    block7.innerHTML == '<img src="/assets/x.png">'
+    block3.innerHTML == '<img src="assets/x.png">' &&
+    block5.innerHTML == '<img src="assets/x.png">' &&
+    block7.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block1.innerHTML == '<img src="/assets/x.png">' &&
-    block4.innerHTML == '<img src="/assets/x.png">' &&
-    block7.innerHTML == '<img src="/assets/x.png">'
+    block1.innerHTML == '<img src="assets/x.png">' &&
+    block4.innerHTML == '<img src="assets/x.png">' &&
+    block7.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block2.innerHTML == '<img src="/assets/x.png">' &&
-    block5.innerHTML == '<img src="/assets/x.png">' &&
-    block8.innerHTML == '<img src="/assets/x.png">'
+    block2.innerHTML == '<img src="assets/x.png">' &&
+    block5.innerHTML == '<img src="assets/x.png">' &&
+    block8.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block3.innerHTML == '<img src="/assets/x.png">' &&
-    block6.innerHTML == '<img src="/assets/x.png">' &&
-    block9.innerHTML == '<img src="/assets/x.png">'
+    block3.innerHTML == '<img src="assets/x.png">' &&
+    block6.innerHTML == '<img src="assets/x.png">' &&
+    block9.innerHTML == '<img src="assets/x.png">'
   ) {
     xWins = true;
     gameOverScreenFun();
@@ -178,72 +178,72 @@ function checkWin() {
   /////////////Y KISMI//////////////////////
 
   if (
-    block1.innerHTML == '<img src="/assets/O.png">' &&
-    block2.innerHTML == '<img src="/assets/O.png">' &&
-    block3.innerHTML == '<img src="/assets/O.png">'
+    block1.innerHTML == '<img src="assets/O.png">' &&
+    block2.innerHTML == '<img src="assets/O.png">' &&
+    block3.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block4.innerHTML == '<img src="/assets/O.png">' &&
-    block5.innerHTML == '<img src="/assets/O.png">' &&
-    block6.innerHTML == '<img src="/assets/O.png">'
+    block4.innerHTML == '<img src="assets/O.png">' &&
+    block5.innerHTML == '<img src="assets/O.png">' &&
+    block6.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block7.innerHTML == '<img src="/assets/O.png">' &&
-    block8.innerHTML == '<img src="/assets/O.png">' &&
-    block9.innerHTML == '<img src="/assets/O.png">'
+    block7.innerHTML == '<img src="assets/O.png">' &&
+    block8.innerHTML == '<img src="assets/O.png">' &&
+    block9.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block1.innerHTML == '<img src="/assets/O.png">' &&
-    block5.innerHTML == '<img src="/assets/O.png">' &&
-    block9.innerHTML == '<img src="/assets/O.png">'
+    block1.innerHTML == '<img src="assets/O.png">' &&
+    block5.innerHTML == '<img src="assets/O.png">' &&
+    block9.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block3.innerHTML == '<img src="/assets/O.png">' &&
-    block5.innerHTML == '<img src="/assets/O.png">' &&
-    block7.innerHTML == '<img src="/assets/O.png">'
+    block3.innerHTML == '<img src="assets/O.png">' &&
+    block5.innerHTML == '<img src="assets/O.png">' &&
+    block7.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block1.innerHTML == '<img src="/assets/O.png">' &&
-    block4.innerHTML == '<img src="/assets/O.png">' &&
-    block7.innerHTML == '<img src="/assets/O.png">'
+    block1.innerHTML == '<img src="assets/O.png">' &&
+    block4.innerHTML == '<img src="assets/O.png">' &&
+    block7.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block2.innerHTML == '<img src="/assets/O.png">' &&
-    block5.innerHTML == '<img src="/assets/O.png">' &&
-    block8.innerHTML == '<img src="/assets/O.png">'
+    block2.innerHTML == '<img src="assets/O.png">' &&
+    block5.innerHTML == '<img src="assets/O.png">' &&
+    block8.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
     clearInterval(myInterval);
   }
   if (
-    block3.innerHTML == '<img src="/assets/O.png">' &&
-    block6.innerHTML == '<img src="/assets/O.png">' &&
-    block9.innerHTML == '<img src="/assets/O.png">'
+    block3.innerHTML == '<img src="assets/O.png">' &&
+    block6.innerHTML == '<img src="assets/O.png">' &&
+    block9.innerHTML == '<img src="assets/O.png">'
   ) {
     oWins = true;
     gameOverScreenFun();
